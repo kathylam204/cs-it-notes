@@ -113,7 +113,7 @@
 - Kleene Star: L∗ is the set of all strings obtained by concatenating zero or more strings in L.
 
 ## Recursive Definitions
-Recursive Definition: Defines a set with a basis statement and a recursive part.
+### Recursive Definition: Defines a set with a basis statement and a recursive part.
 - Example: N defined by 0∈N and n∈N→n+1∈N.
 
 ## Structural Induction
