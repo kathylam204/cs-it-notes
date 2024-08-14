@@ -1,2 +1,2 @@
 # notes
-all of the notes I've done while in college
+A list of CS/IT related notes I've taken since the beginning of college.
