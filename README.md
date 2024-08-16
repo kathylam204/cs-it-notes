@@ -3,5 +3,6 @@
 ### Current Notes:
 - Computer Networks Security Notes
 - OS Security, Programming, and Administration
+- Software Engineering
 - Software Security Testing and QA
 - Theory Of Computation
