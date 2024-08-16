@@ -5,7 +5,7 @@
 - [Database Design & Implementation](https://github.com/kathylam204/cs-it-notes/blob/main/databasedesignandimpnotes.md)
 - [Operating Systems](https://github.com/kathylam204/cs-it-notes/blob/main/operatingsystemsnotes.md)
 - [OS Security, Programming, and Administration](https://github.com/kathylam204/cs-it-notes/blob/main/ossecuritynotes.md)
-- [Software Engineering]()
+- [Software Engineering](https://github.com/kathylam204/cs-it-notes/blob/main/softwareengineeringnotes.md)
 - [Software Security Testing and QA]()
 - [Theory Of Computation]()
 
