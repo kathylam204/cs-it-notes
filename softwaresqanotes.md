@@ -175,43 +175,43 @@
 - Total hours spent on the code review process.
 
 ## Hierarchy of System Documents
-Requirement: High-level marketing or product proposal.
-Functional Specification: Software engineering response to the marketing proposal.
-High-Level Design: Overall system architecture.
-Low-Level Design: Detailed specification of modules within the architecture.
-Programming: Coding of the modules.
+- Requirement: High-level marketing or product proposal.
+- Functional Specification: Software engineering response to the marketing proposal.
+- High-Level Design: Overall system architecture.
+- Low-Level Design: Detailed specification of modules within the architecture.
+- Programming: Coding of the modules.
 
 ## Defect Prevention
-Techniques include:
-Instrumentation code.
-Handling return values, counter data fields, buffer overflow/underflow.
-Common source for error messages and help texts.
-Validating input data.
-Using assertions to detect impossible conditions.
-Reverse-computing inputs from results.
-Loop counters in each loop.
+### Techniques include:
+- Instrumentation code.
+- Handling return values, counter data fields, buffer overflow/underflow.
+- Common source for error messages and help texts.
+- Validating input data.
+- Using assertions to detect impossible conditions.
+- Reverse-computing inputs from results.
+- Loop counters in each loop.
 
 ## Mutation Testing
-Mutant: Modified program with a single change.
-Mutation Test: Testing process involving mutants.
-Definitions: Mutant, Killed Mutant, Dead Mutant, Equivalent Mutant, Killable/Stubborn Mutant, Mutant-adequate test suite.
+- Mutant: Modified program with a single change.
+- Mutation Test: Testing process involving mutants.
+- Definitions: Mutant, Killed Mutant, Dead Mutant, Equivalent Mutant, Killable/Stubborn Mutant, Mutant-adequate test suite.
 
 ## Data Flow Anomalies
-Defined and defined again (type 1).
-Undefined but referenced (type 2).
-Defined but not referenced (type 3).
+- Defined and defined again (type 1).
+- Undefined but referenced (type 2).
+- Defined but not referenced (type 3).
 
 ## Data Flow Testing
-Visualizes the "flow" of data values from one statement to another.
-Motivations:
-Perform tests on data values produced in one statement and used later.
+### Visualizes the "flow" of data values from one statement to another.
+### Motivations:
+- Perform tests on data values produced in one statement and used later.
 
 ## Domain Error
-Input domain: Set of all input data to the program.
-Program path: Sequence of instructions from entry to exit.
-Feasible path: Exists input data causing the path to execute.
-Infeasible path: No input data causes the path to execute.
-Errors:
-Computation Error: Correct path, wrong output.
-Domain Error: Wrong path executed for specific input data.
-A program with domain errors misclassifies inputs, leading to incorrect path execution.
+### Input domain: Set of all input data to the program.
+### Program path: Sequence of instructions from entry to exit.
+- Feasible path: Exists input data causing the path to execute.
+- Infeasible path: No input data causes the path to execute.
+### Errors:
+- Computation Error: Correct path, wrong output.
+- Domain Error: Wrong path executed for specific input data.
+- A program with domain errors misclassifies inputs, leading to incorrect path execution.
