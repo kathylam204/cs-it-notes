@@ -3,3 +3,4 @@
 ### Current Notes:
 - OS Security, Programming, and Administration
 - Theory Of Computation
+- Software Security Testing and QA
