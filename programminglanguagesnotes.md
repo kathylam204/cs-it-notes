@@ -107,101 +107,101 @@ Examples:
 ## Python Basics
 ### Creating and Running Python Scripts:
 - Use ‘nano (yourfilename).py’ to create a file.
-- Example:
--- def square(n):
--- return n * n
--- ilist = [2, 4, 6]
--- olist = map(square, ilist)
--- print(list(olist))
+### Example:
+-  def square(n):
+- return n * n
+- ilist = [2, 4, 6]
+- olist = map(square, ilist)
+- print(list(olist))
 - Save and exit: ‘Ctrl+X’, ‘Y’, ‘Enter’
 - Run: ‘python (yourfilename).py’
 - Create and change directories:
--- ‘mkdir (directoryname)’
--- ‘cd (directoryname)’
+- ‘mkdir (directoryname)’
+- ‘cd (directoryname)’
 
 ## Lambda Expressions and Conditional Statements
-Lambda Expressions:
-Example:
-x = lambda a: a + 10
-print(x(5))  # Output: 15
-Conditional Statements:
-Example:
-raining = False
-print("Let's go to the", 'beach' if not raining else 'library')  # Output: Let's go to the beach
-raining = True
-print("Let's go to the", 'beach' if not raining else 'library')  # Output: Let's go to the library
-age = 12
-s = 'minor' if age < 21 else 'adult'
-print(s)  # Output: minor
-result = 'yes' if ('qux' in ['foo', 'bar', 'baz']) else 'no'
-print(result)  # Output: no
+### Lambda Expressions:
+### Example:
+- x = lambda a: a + 10
+- print(x(5))  # Output: 15
+### Conditional Statements:
+### Example:
+- raining = False
+- print("Let's go to the", 'beach' if not raining else 'library')  # Output: Let's go to the beach
+- raining = True
+- print("Let's go to the", 'beach' if not raining else 'library')  # Output: Let's go to the library
+- age = 12
+- s = 'minor' if age < 21 else 'adult'
+- print(s)  # Output: minor
+- result = 'yes' if ('qux' in ['foo', 'bar', 'baz']) else 'no'
+- print(result)  # Output: no
 
 ## Syntax and Semantics
-Definitions:
-Syntax: The form or structure of expressions, statements, and program units.
-Semantics: The meaning of expressions, statements, and program units.
-Language Definition Users:
-Language designers
-Implementers
-Programmers
-Key Concepts:
-Sentence: A string of characters over an alphabet.
-Language: A set of sentences.
-Lexeme: The lowest level syntactic unit (e.g., *, sum, begin).
-Token: A category of lexemes (e.g., identifier).
-BNF (Backus-Naur Form):
-Describes syntax using context-free grammars.
-BNF Rule Example:
-<ident_list> → identifier | identifier, <ident_list>
-<if_stmt> → if <logic_expr> then <stmt>
+### Definitions:
+- Syntax: The form or structure of expressions, statements, and program units.
+- Semantics: The meaning of expressions, statements, and program units.
+### Language Definition Users:
+- Language designers
+- Implementers
+- Programmers
+### Key Concepts:
+- Sentence: A string of characters over an alphabet.
+- Language: A set of sentences.
+- Lexeme: The lowest level syntactic unit (e.g., *, sum, begin).
+- Token: A category of lexemes (e.g., identifier).
+- BNF (Backus-Naur Form):
+- Describes syntax using context-free grammars.
+- BNF Rule Example:
+- <ident_list> → identifier | identifier, <ident_list>
+- <if_stmt> → if <logic_expr> then <stmt>
 
 ## Operational, Denotational, and Axiomatic Semantics
-Operational Semantics:
-Defines the meaning by executing statements on a machine.
-Needs a virtual machine for high-level languages.
-Denotational Semantics:
-Uses mathematical objects and functions to define meaning.
-Axiomatic Semantics:
-Uses formal logic to define semantics.
-Assertions:
-Precondition: Before a statement.
-Postcondition: After a statement.
-Weakest Precondition: Least restrictive condition ensuring the postcondition.
+### Operational Semantics:
+- Defines the meaning by executing statements on a machine.
+- Needs a virtual machine for high-level languages.
+### Denotational Semantics:
+- Uses mathematical objects and functions to define meaning.
+### Axiomatic Semantics:
+- Uses formal logic to define semantics.
+### Assertions:
+- Precondition: Before a statement.
+- Postcondition: After a statement.
+- Weakest Precondition: Least restrictive condition ensuring the postcondition.
 
 ## Loop Invariants
-Definition: An assertion that is true before and after each iteration of a loop.
-Requirements:
-True initially before the loop.
-Maintained true during loop execution.
-Ensures postcondition upon loop termination.
+### Definition: An assertion that is true before and after each iteration of a loop.
+### Requirements:
+- True initially before the loop.
+- Maintained true during loop execution.
+- Ensures postcondition upon loop termination.
 
 ## Syntax Analysis
-Components:
-Lexical Analyzer: Matches character patterns to tokens.
-Syntax Analyzer (Parser): Builds the parse tree.
-Parsing Techniques:
-Top-Down Parsing:
-Starts from the root and works down.
-Example methods: Recursive descent, LL parsers.
-Bottom-Up Parsing:
-Starts from the leaves and works up.
-Example: LR parsing.
+### Components:
+- Lexical Analyzer: Matches character patterns to tokens.
+- Syntax Analyzer (Parser): Builds the parse tree.
+### Parsing Techniques:
+- Top-Down Parsing:
+- Starts from the root and works down.
+- Example methods: Recursive descent, LL parsers.
+- Bottom-Up Parsing:
+- Starts from the leaves and works up.
+- Example: LR parsing.
 
 ## Quiz Notes
-Implementation Types:
-Interpretation: Translates source code during execution (Portability).
-Compilation: Translates source code to native language before execution (Speed).
-Data Aggregates:
-Homogeneous: Elements of the same type.
-Heterogeneous: Elements of different types.
-Addressing:
-By Number: Integer addressing.
-By Name: String addressing.
-Size:
-Fixed: Size cannot change.
-Dynamic: Size can change.
-Key Terms:
-Semantics: Meaning of program units.
-Lexeme: Lowest level unit of a language.
-Syntax: Form or structure of program units.
-Token: Category of lexemes.
+### Implementation Types:
+- Interpretation: Translates source code during execution (Portability).
+- Compilation: Translates source code to native language before execution (Speed).
+### Data Aggregates:
+- Homogeneous: Elements of the same type.
+- Heterogeneous: Elements of different types.
+- Addressing:
+- By Number: Integer addressing.
+- By Name: String addressing.
+- Size:
+- Fixed: Size cannot change.
+- Dynamic: Size can change.
+### Key Terms:
+- Semantics: Meaning of program units.
+- Lexeme: Lowest level unit of a language.
+- Syntax: Form or structure of program units.
+- Token: Category of lexemes.
