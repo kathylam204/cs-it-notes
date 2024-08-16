@@ -1,4 +1,4 @@
-# Computer Networks Security Notes
+# Computer Networks Security
 
 ## Board Info: Sending Message Order
 - Sender
