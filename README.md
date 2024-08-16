@@ -7,7 +7,7 @@
 - [OS Security, Programming, and Administration](https://github.com/kathylam204/cs-it-notes/blob/main/ossecuritynotes.md)
 - [Software Engineering](https://github.com/kathylam204/cs-it-notes/blob/main/softwareengineeringnotes.md)
 - [Software Security Testing and QA](https://github.com/kathylam204/cs-it-notes/blob/main/softwaresqanotes.md)
-- [Theory Of Computation]()
+- [Theory Of Computation](https://github.com/kathylam204/cs-it-notes/blob/main/theoryofcomputationnotes.md)
 
 ### Notes Taken Outside Of College:
 -
