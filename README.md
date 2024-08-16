@@ -3,6 +3,7 @@
 ### College Notes:
 - Computer Networks Security Notes
 - Database Design & Implementation
+- Operating Systems
 - OS Security, Programming, and Administration
 - Software Engineering
 - Software Security Testing and QA
