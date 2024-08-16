@@ -110,7 +110,8 @@
 
 ## Encryption
 - RSA: Public-key encryption
-### Formula:
+
+## Formula:
 - n=p×q
 - m=(p−1)×(q−1)
 - Public key: (e, n)
