@@ -1,7 +1,7 @@
 # Description
 ## A list of CS/IT related notes I've taken since the beginning of college.
 ### College Notes:
-- Computer Networks Security Notes
+- Computer Networks Security
 - Database Design & Implementation
 - Operating Systems
 - OS Security, Programming, and Administration
