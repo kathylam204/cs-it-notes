@@ -129,7 +129,7 @@
 
 ### Multiplexing: Combining signals
 
-### Layers of Data:
+## Layers of Data:
 - Application
 - Transport (port)
 - Network (IP address)
