@@ -4,7 +4,7 @@
 - [Computer Networks Security](https://github.com/kathylam204/cs-it-notes/blob/main/compnetsecuritynotes.md)
 - [Database Design & Implementation](https://github.com/kathylam204/cs-it-notes/blob/main/databasedesignandimpnotes.md)
 - [Operating Systems](https://github.com/kathylam204/cs-it-notes/blob/main/operatingsystemsnotes.md)
-- [OS Security, Programming, and Administration]()
+- [OS Security, Programming, and Administration](https://github.com/kathylam204/cs-it-notes/blob/main/ossecuritynotes.md)
 - [Software Engineering]()
 - [Software Security Testing and QA]()
 - [Theory Of Computation]()
