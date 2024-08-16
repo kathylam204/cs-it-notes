@@ -1,124 +1,123 @@
 # Programming Languages
 
 ## Reasons for Studying Programming Concepts
-Increased ability to express ideas
-Improved background for choosing appropriate languages
-Increased ability to learn new languages
-Better understanding of significance of implementation
-Better use of languages already known
-Overall advancement of computing
+- Increased ability to express ideas
+- Improved background for choosing appropriate languages
+- Increased ability to learn new languages
+- Better understanding of significance of implementation
+- Better use of languages already known
+- Overall advancement of computing
 
 ## Programming Domains
-Scientific applications: Fortran (arrays, floating-point computations)
-Business applications: COBOL (reports, decimal numbers, characters)
-Artificial intelligence: LISP (linked lists, symbol manipulation)
-Systems programming: C (efficiency)
-Web Software: XHTML, PHP, Java
+- Scientific applications: Fortran (arrays, floating-point computations)
+- Business applications: COBOL (reports, decimal numbers, characters)
+- Artificial intelligence: LISP (linked lists, symbol manipulation)
+- Systems programming: C (efficiency)
+- Web Software: XHTML, PHP, Java
 
 ## Language Evaluation Criteria
-Readability: Ease of reading/understanding code
-Writability: Ease of writing code
-Reliability: Conformance to specifications
-Cost: Total cost (training, writing, compiling, executing, maintaining)
+- Readability: Ease of reading/understanding code
+- Writability: Ease of writing code
+- Reliability: Conformance to specifications
+- Cost: Total cost (training, writing, compiling, executing, maintaining)
 
 ## Readability
-Orthogonality: Small set of primitive constructs combined in a limited number of ways, each combination is legal.
+- Orthogonality: Small set of primitive constructs combined in a limited number of ways, each combination is legal.
 
 ## Writability
-Simplicity and Orthogonality: Few constructs, small number of primitives, simple rules for combination.
+- Simplicity and Orthogonality: Few constructs, small number of primitives, simple rules for combination.
 
 ## Reliability
-Type checking: Testing for type errors
+- Type checking: Testing for type errors
 
 ## Cost Factors
-Training programmers
-Writing programs
-Compiling and executing programs
-Availability of free compilers
-Maintaining programs
-Other criteria: Portability, Generality, Well-definedness
+- Training programmers
+- Writing programs
+- Compiling and executing programs
+- Availability of free compilers
+- Maintaining programs
+- Other criteria: Portability, Generality, Well-definedness
 
 ## Von Neumann Architecture
-Imperative languages dominant
-Data and programs stored in memory
-CPU fetches and executes instructions from memory
+- Imperative languages dominant
+- Data and programs stored in memory
+- CPU fetches and executes instructions from memory
 
 ## Programming Methodologies Evolution
-1950s-1960s: Machine efficiency
-Late 1960s: Readability, structured programming, top-down design
-Late 1970s: Data abstraction
-Mid-1980s: Object-oriented programming (data abstraction + inheritance + polymorphism)
+- 1950s-1960s: Machine efficiency
+- Late 1960s: Readability, structured programming, top-down design
+- Late 1970s: Data abstraction
+- Mid-1980s: Object-oriented programming (data abstraction + inheritance + polymorphism)
 
 ## Language Categories
-Imperative: Variables, assignment statements, iteration (e.g., C, Java)
-Functional: Functions as primary computation (e.g., LISP, Scheme)
-Logic: Rule-based (e.g., Prolog)
-Markup/Hybrid: JSTL, XSLT
+- Imperative: Variables, assignment statements, iteration (e.g., C, Java)
+- Functional: Functions as primary computation (e.g., LISP, Scheme)
+- Logic: Rule-based (e.g., Prolog)
+- Markup/Hybrid: JSTL, XSLT
 
 ## Language Design Trade-offs
-Reliability vs. Cost of execution
-Readability vs. Writability
-Writability vs. Reliability
+- Reliability vs. Cost of execution
+- Readability vs. Writability
+- Writability vs. Reliability
 
 ## Implementation Methods
-Compilation: Source language to machine language (slow translation, fast execution)
-Pure Interpretation: Interpreter runs the program (slow execution)
-Hybrid Implementation: Combination of compilation and interpretation (e.g., Java bytecode, .NET JIT)
+- Compilation: Source language to machine language (slow translation, fast execution)
+- Pure Interpretation: Interpreter runs the program (slow execution)
+- Hybrid Implementation: Combination of compilation and interpretation (e.g., Java bytecode, .NET JIT)
 
 ## Data Aggregation
-Lists: Mutable, ordered, indexed by number
-Tuples: Immutable, ordered, indexed by number
-Dictionaries: Mutable, unordered, indexed by keys
+- Lists: Mutable, ordered, indexed by number
+- Tuples: Immutable, ordered, indexed by number
+- Dictionaries: Mutable, unordered, indexed by keys
 
 ## Key Python Constructs
-Variables: Named storage
-Loops: while, for
-Conditional statements: if, elif, else
-Functions: def keyword, pass by value/reference
-Indentation: Enforced for readability and structure
+- Variables: Named storage
+- Loops: while, for
+- Conditional statements: if, elif, else
+- Functions: def keyword, pass by value/reference
+- Indentation: Enforced for readability and structure
 
 ## Functions
-Define using def
-Return values using return
-Pass by value: Copy of the value is passed
-Pass by reference: Reference to the original value is passed
+- Define using def
+- Return values using return
+- Pass by value: Copy of the value is passed
+- Pass by reference: Reference to the original value is passed
 
 ## Common Data Aggregates
-Lists: Mutable sequence, indexed by numbers
-Tuples: Immutable sequence, indexed by numbers
-Dictionaries: Mutable mapping, indexed by keys
+- Lists: Mutable sequence, indexed by numbers
+- Tuples: Immutable sequence, indexed by numbers
+- Dictionaries: Mutable mapping, indexed by keys
 
 ## Example Usage
-Lists: cats = ['Tom', 'Snappy']
-Tuples: months = ('January', 'February')
-Dictionaries: phonebook = {'Alice': 12345}
+- Lists: cats = ['Tom', 'Snappy']
+- Tuples: months = ('January', 'February')
+- Dictionaries: phonebook = {'Alice': 12345}
 
 ## Advanced Topics
-Preprocessors: Expand macros before compilation
-Just-in-Time (JIT) Compilation: Intermediate language compiled at runtime
+- Preprocessors: Expand macros before compilation
+- Just-in-Time (JIT) Compilation: Intermediate language compiled at runtime
 
 ## Higher-Order Functions
 Definition: A function that takes another function as a parameter or returns a function as a return value.
 Examples:
-map()
-filter()
-reduce()
+- map()
+- filter()
+- reduce()
 
 ## Python Basics
-Creating and Running Python Scripts:
-Use ‘nano (yourfilename).py’ to create a file.
-Example:
-def square(n):
-	return n * n
-
-ilist = [2, 4, 6]
-olist = map(square, ilist)
-print(list(olist))
-Save and exit: ‘Ctrl+X’, ‘Y’, ‘Enter’
-Run: ‘python (yourfilename).py’
-Create and change directories:
-‘mkdir (directoryname)’
-‘cd (directoryname)’
+### Creating and Running Python Scripts:
+- Use ‘nano (yourfilename).py’ to create a file.
+- Example:
+-- def square(n):
+-- return n * n
+-- ilist = [2, 4, 6]
+-- olist = map(square, ilist)
+-- print(list(olist))
+- Save and exit: ‘Ctrl+X’, ‘Y’, ‘Enter’
+- Run: ‘python (yourfilename).py’
+- Create and change directories:
+-- ‘mkdir (directoryname)’
+-- ‘cd (directoryname)’
 
 ## Lambda Expressions and Conditional Statements
 Lambda Expressions:
